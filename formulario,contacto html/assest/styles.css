@@ -1,0 +1,102 @@
+
+.cajag, body {
+    background-color: purple;
+}
+label, input {
+    display: block;
+    padding: 3px;
+}
+label {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+}
+input{
+    width: 98%;
+    border-width: 1px;
+    border-color: purple;
+    margin: auto;
+}
+fieldset {
+    margin: auto;
+    width: 40%;
+    display: block;
+
+}
+#cajita{
+    margin: auto;
+    width: 40%;
+    display: block;
+    padding: 20px;
+    border-radius: 5px;
+}
+span{
+    font-size: 18px;
+    color: purple;
+
+}
+#idmensaje{
+    border-color: purple;
+}
+#boton{
+    background-color: purple;
+    color: white;
+    margin: auto;
+    margin-top: 20px;
+    width: 90%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#boton:hover{
+    background-color: plum;
+
+}
+#ptelefono{
+    display: none;
+    color: white;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: red;
+    border-radius: 8px;
+}
+
+#lunita{
+    position: absolute;
+    top: 2%;
+    right: 31%;
+    font-size: 23px;
+    color: purple;
+    cursor: pointer;
+}
+#botoncito1{
+    display: none;
+}
+
+
+
+#letra{
+    position: absolute;
+    top: 2%;
+    left: 31%;
+    color: purple;
+    font-size: 20px;
+    cursor: pointer;
+}
+#botoncito2{
+    display: none;
+}
+.fondodark{
+    transition: 1s;
+    background-color: #19191a;
+    color: white;
+}
+.fondowhite{
+    transition: 1s;
+    background-color: white;
+    color: black;
+}
+.cajitabest{
+    background-color: white;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assest/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="validacion.js">
+
+    </script>
+</head>
+<body>
+    <div id="cajita" class ="cajitabest">
+        <form class="formulario">
+            <h1 style="color: purple; text-align: center; font-family: Arial, Helvetica, sans-serif"> Formulario de contacto</h1>
+            <p style="text-align: center; font-family: Arial, Helvetica, sans-serif;">Escribenos y en breve nos ponemos en contacto contigo</p>
+            <div class="colorf">
+                <label for="botoncito1" id="lunita" class="classluna"><i class="fa-regular fa-moon"></i></label>
+                <input type="checkbox" id="botoncito1" name="tema">  
+            </div>
+            <div class="letrat">
+                <label for="botoncito2" id="letra"><i class="fa-solid fa-text-height"></i></label>
+                <input type="checkbox" id="botoncito2" name="letra" onclick="cambioletra()">
+            </div>
+
+            <label for="nombre">Nombre <span>*</span></label>
+            <input type="text" name="fname" id="nombre" class="classnombre" placeholder="Ej: Anthony">
+            <label for="email">Email <span>*</span></label>
+            <input type="email" name="email" id="email" class="classemail" placeholder="Ej: ejemplo@gmail.com">
+            <label for="telefono">Telefono</label>
+            <input type="tel" name="telefono" id="telefono" class="classtelefono" placeholder="939366821">
+            <div id="ptelefono"></div>
+            <label for="web">Sitio web</label>
+            <input type="text" name="fname" id="web" class="classweb">
+            <label for="asunto">Asunto <span>*</span></label>
+            <input type="text" name="fname" id="asunto" class="classasunto">
+            <label for="idmensaje">Mensaje <span>*</span></label>
+            <textarea name="mensaje" id="idmensaje" cols="57" rows="10"></textarea>
+            <input type="button" id="boton" class="classmensaje" value="ENVIAR" onclick="validar()">
+            <div style="padding-top: 15px; font-size: 15px; font-family: Arial, Helvetica, sans-serif;"><span>*</span> Los campos son obligatorios</div>
+
+        </form>
+    </div>
+
+</body>
+</html>
